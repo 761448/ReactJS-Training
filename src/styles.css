@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inlineSortButton {
+  display: inline-block;
+}
+
+.todoAddButton {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.todoInputBox {
+  width: 30%;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.pWarning {
+  color: darkcyan;
+  margin-bottom: 0px;
+}
+
+.pCount {
+  background-color: yellow;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: yellow !important;
+}
