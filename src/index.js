@@ -43,7 +43,7 @@ root.render(
       <RouteDemo />
     </BrowserRouter> */}
     <BrowserRouter>
-      <GameHistory />
+      <Game />
     </BrowserRouter>
     {/* <Provider store={store}>
       <Counter />
