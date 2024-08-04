@@ -14,7 +14,7 @@ function UseReducer() {
 
   return (
     <div>
-      <h1>Count -> {count}</h1>
+      <h1>Count - {count}</h1>
       <button onClick={() => dipatcher({ type: "plus" })}>Increment</button>
       <button onClick={() => dipatcher({ type: "minus" })}>Decrement</button>
     </div>
