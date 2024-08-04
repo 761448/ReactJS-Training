@@ -5,7 +5,7 @@ import React, {
   useRef,
   useCallback,
 } from "react";
-import "/src/styles.css";
+//import "./src/styles.css";
 
 let nextId = 0;
 
