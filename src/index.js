@@ -32,6 +32,7 @@ import counterReducer from "./day8/reducers/reducers";
 import Counter from "./day8/component/counter";
 import store from "./day8/store/store";
 import Users from "./day7/component/users";
+import Shopping from "./shopping/shopping.js";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -42,7 +43,7 @@ root.render(
       <RouteDemo />
     </BrowserRouter> */}
     <BrowserRouter>
-      <AppComponent />
+      <GameHistory />
     </BrowserRouter>
     {/* <Provider store={store}>
       <Counter />
